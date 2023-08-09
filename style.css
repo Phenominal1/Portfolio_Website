@@ -1046,8 +1046,8 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 30px;
-        top: -29%;
-        height: auto;
+        top: -30%;
+        height: 900px;
         width: 100%;
        }
         
@@ -1063,7 +1063,7 @@ footer{
         flex-wrap: wrap;
         position: relative;
         right:35%;
-        bottom: -45%;
+        bottom:-45%;
         gap: 1rem;
         justify-content: center;
       
@@ -1676,7 +1676,7 @@ footer{
         align-items: center;
         gap: 30px;
         top: 3%;
-        height: 600px;
+        height: 900px;
         width: 100%;
        }
         
