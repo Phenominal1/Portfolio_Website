@@ -78,7 +78,6 @@ a{
     user-select: none;
     font-size: 7em;
     color: rgb(231,231,231);
-
     bottom: -12%;
     left: -5%;
     font-weight: bold;
@@ -650,11 +649,7 @@ footer{
 @media (min-width:320px) and  (max-width:480px){
         
  
-  #wrapper{
-    height: 100vh;
-    overflow-y:auto;
-    overflow-x: hidden;
-}
+
   
   .container{
             width: auto;
@@ -667,7 +662,7 @@ footer{
             display: flex;
             justify-content:space-between;
             align-items: center; 
-            padding-top: 2rem;
+            padding-top: 1rem;
         }
 
 
@@ -711,33 +706,38 @@ footer{
       .hero-section{
         position: relative;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     
         gap: 2rem;
-        margin: 2rem auto;
+        /* margin: 2rem auto; */
+        margin-top: 5rem;
         padding: 0 1rem;
-        padding-bottom: 8rem;
+        padding-bottom: 8rem; 
+        height: 390px!important;
     }
     .faded-text{
-        position:absolute;
+        /* position:absolute; */
+        display: flex!;
+        justify-content: flex-start !important;
         user-select: none;
         font-size: 3em;
         color: rgb(231,231,231);
-    
-        bottom: -49%;
-        left: 0%;
+        margin-left:1.5rem;
+        /* bottom: -56%;
+        left: 0%; */
         font-weight: bold;
         transition: all 3s;
          
     }
     
     .hero-section-left{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
     }
     
     .hero-section-heading{
@@ -803,14 +803,15 @@ footer{
     
       }
       .user-image{
-        position: absolute;
-        padding:2.5rem; 
-        filter: grayscale(1);
-        transition: all 3s;
-        animation: scaleImage 5s linear infinite;
-        align-content: center;
-        right:7rem;
-        top: 12rem;
+       /* position: absolute; */
+       display: flex;
+       justify-content: center;
+       padding:2.5rem; 
+       filter: grayscale(1);
+       transition: all 3s;
+       animation: scaleImage 5s linear infinite;
+       /* right: 17.5rem;
+       top: 12rem; */
     
       }
       .user-image img{
@@ -835,19 +836,19 @@ footer{
         }
       }
       .icon-circle{
-        visibility: hidden;
+        display: none;
       }
       .icon-dots{
-        visibility: hidden;
+       display: none;
       }
       .icon-zigzags{
-        visibility: hidden;
+        display: none;
       }
       .icon-plus{
-        visibility: hidden;
+        display: none;
       }
       .icon-cube{
-        visibility: hidden;
+        display: none;
       }
 
 
@@ -1010,7 +1011,7 @@ footer{
        }
        #project1{
         background-image: url(projects/Project1.png);
-        width: 420px;
+        width: auto;
         height: 220px;
 
        }
@@ -1018,20 +1019,20 @@ footer{
        #project2{
         margin-left: 0;
         background-image: url(projects/Project2.png);
-        width: 420px;
+        width: auto;
         height: 220px;
        }
       
        #project3{
         background-image: url(projects/Project3.png);
-        width: 420px;
+        width: auto;
         height: 220px;
        }
       
        #project4{
         margin-left: 0;
         background-image: url(projects/Project4.png);
-        width: 420px;
+        width: auto;
         height: 220px;
        }
       
@@ -1129,9 +1130,9 @@ footer{
         width: 320px;
       }
       
-      .contactus-form-container{
+      .conatactus-form-container{
         width: 100%;
-        height: 75%;
+        height: auto;
         background-color:rgb(231,231,231) ;
       }
       
@@ -1186,11 +1187,11 @@ footer{
       
       #submit-btn{
         border: none;
-        font-size: 1rem;
+        font-size: .9rem;
         margin: 1rem 0;
-        width: auto;
+        width: 230px;
         text-align: center;
-        left: 1.5rem;
+        
       }
       
       #submit-btn:hover{
@@ -1204,13 +1205,13 @@ footer{
 
       /* Footer */
       footer{
-        position: relative;
-        margin-top: 15px;
+        /* position: relative; */
+        margin-top: 10rem;
         background-color: #343d68;
         padding: 3rem;
         text-align: center;
         height: 120px;
-        top: 50%;
+        /* top: 50%; */
       }
       
       .footer-wrapper{
@@ -1268,14 +1269,7 @@ footer{
 /* media for tablets */
 @media (min-width:481px) and  (max-width:768px){
         
- .main{
-  height: max-content;
- } 
-  #wrapper{
-    height: 100vh;
-    overflow-y:auto;
-    overflow-x: hidden;
-}
+
   
   .container{
             width: auto;
@@ -1288,7 +1282,7 @@ footer{
             display: flex;
             justify-content:space-between;
             align-items: center; 
-            padding-top: 2rem;
+            padding-top: 1rem;
         }
 
 
@@ -1332,22 +1326,27 @@ footer{
       .hero-section{
         position: relative;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     
         gap: 2rem;
-        margin: 2rem auto;
+        /* margin: 2rem auto; */
+        margin-top: 5rem;
         padding: 0 1rem;
-        padding-bottom: 8rem;
+        padding-bottom: 8rem; 
+        height: 390px!important;
     }
     .faded-text{
-        position:absolute;
+        /* position:absolute; */
+        display: flex!;
+        justify-content: flex-start !important;
         user-select: none;
         font-size: 3em;
         color: rgb(231,231,231);
-    
-        bottom: -56%;
-        left: 0%;
+        margin-left:1.5rem;
+        /* bottom: -56%;
+        left: 0%; */
         font-weight: bold;
         transition: all 3s;
          
@@ -1418,21 +1417,22 @@ footer{
       }
       .hero-section-right{
         position: relative;
-        
-     
+          
       }
       .absolute{
         position: absolute;
     
       }
       .user-image{
-        position: absolute;
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
         padding:2.5rem; 
         filter: grayscale(1);
         transition: all 3s;
         animation: scaleImage 5s linear infinite;
-        right: 17.5rem;
-        top: 12rem;
+        /* right: 17.5rem;
+        top: 12rem; */
       }
       .user-image img{
         z-index: -9;
@@ -1456,19 +1456,19 @@ footer{
         }
       }
       .icon-circle{
-        visibility: hidden;
+        display: none;
       }
       .icon-dots{
-        visibility: hidden;
+       display: none;
       }
       .icon-zigzags{
-        visibility: hidden;
+        display: none;
       }
       .icon-plus{
-        visibility: hidden;
+        display: none;
       }
       .icon-cube{
-        visibility: hidden;
+        display: none;
       }
 
 
@@ -1493,7 +1493,7 @@ footer{
       }
       
       .project-card{
-        width: 420px;
+        width: 350px;
         height: 350px;
         background-image: url(./projects/Project1.png);
         background-size: cover;
@@ -1580,7 +1580,6 @@ footer{
         width: 70%;
         display: flex;
         gap: 9px;
-        
         flex-wrap: wrap;
        }
       
@@ -1635,7 +1634,7 @@ footer{
        #project1{
         background-image: url(projects/Project1.png);
         padding: 3.5rem;
-        width: 620px;
+        width: auto;
         height: 220px;
 
        }
@@ -1643,7 +1642,7 @@ footer{
        #project2{
         margin-left: 0;
         background-image: url(projects/Project2.png);
-        width: 620px;
+        width: auto;
         height: 220px;
         padding: 3.5rem;
        }
@@ -1651,7 +1650,7 @@ footer{
        #project3{
         background-image: url(projects/Project3.png);
         padding: 3.5rem;
-        width: 620px;
+        width: auto;
         height: 220px;
      
        }
@@ -1660,7 +1659,7 @@ footer{
         margin-left: 0;
         background-image: url(projects/Project4.png);
         padding: 3.5rem;
-        width: 620px;
+        width: auto;
         height: 220px;
        }
       
@@ -1668,15 +1667,10 @@ footer{
        /* Skills Section */
       
        .skills-container{
-        position: relative;
         display: flex;
-        padding: 2rem;
-        /* margin: 10rem auto; */
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        top: 3%;
-        height: 550px;
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
         width: 100%;
        }
         
@@ -1687,26 +1681,26 @@ footer{
        }
        
        .skill-container-right{
-        width: 50%;
+        width: 70%;
         display: flex;
         flex-wrap: wrap;
-        position: relative;
-        right:5%;
-        bottom: 0%;
         gap: 2rem;
-        justify-content: center;
-      
+        justify-content: center ;
+        align-items: center ;
        }
        
        .skill-fade-text{
-        position: absolute;
+        
         font-size: 5rem;
         font-style: bold;
         color: rgb(231,231,231);
-        bottom: 0%;
-        right: 10%;
+        right: 25%;
+        bottom: -2%;
         user-select: none;
-        /* overflow-y: hidden; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
        }
       
        .blob-style{
@@ -1758,9 +1752,9 @@ footer{
         width: 320px;
       }
       
-      .contactus-form-container{
+      .conatactus-form-container{
         width: 100%;
-        height: 75%;
+        height: auto;
         background-color:rgb(231,231,231) ;
       }
       
@@ -1819,7 +1813,6 @@ footer{
         margin: 1rem 0;
         width: auto;
         text-align: center;
-        left: 7.5rem;
       
       }
       
@@ -1834,13 +1827,13 @@ footer{
 
       /* Footer */
       footer{
-        position: relative;
-        margin-top: 15px;
+       
+        margin-top: 9rem;
         background-color: #343d68;
         padding: 3rem;
         text-align: center;
-        height: 120px;
-        top: 50%;
+        height: auto;
+        
       }
       
       .footer-wrapper{
