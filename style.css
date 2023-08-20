@@ -472,7 +472,7 @@ a{
   font-style: bold;
   color: rgb(231,231,231);
   bottom: -34.5%;
-  right: -25%;
+  right: -5%;
   user-select: none;
   /* overflow-y: hidden; */
  }
@@ -1050,13 +1050,14 @@ footer{
         top: -30%;
         height: 900px;
         width: 100%;
+        margin-top: 6rem;
        }
         
        .skill-container-left{
         width: 50%;
         display: flex;
         flex-direction: column;
-        margin-top: 6rem;
+        
        }
        
        .skill-container-right{
@@ -1076,7 +1077,7 @@ footer{
         font-size: 5rem;
         font-style: bold;
         color: rgb(231,231,231);
-        bottom: -20.5%;
+        bottom: -25.5%;
         right: 14%;
         user-select: none;
         /* overflow-y: hidden; */
