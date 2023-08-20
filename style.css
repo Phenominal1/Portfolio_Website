@@ -1055,6 +1055,7 @@ footer{
         
        .skill-container-left{
         width: 50%;
+        margin-top:6rem;
         display: flex;
         flex-direction: column;
        }
