@@ -452,7 +452,6 @@ a{
   
  .skill-container-left{
   width: 50%;
-  margin-top:6rem;
   display: flex;
   flex-direction: column;
  }
@@ -1055,9 +1054,9 @@ footer{
         
        .skill-container-left{
         width: 50%;
-        margin-top:6rem;
         display: flex;
         flex-direction: column;
+        margin-top: 6rem;
        }
        
        .skill-container-right{
